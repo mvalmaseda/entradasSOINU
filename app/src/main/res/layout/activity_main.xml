@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOINU 2026"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compra tus entradas"
+        android:textSize="18sp"
+        android:textColor="#5A6470"
+        android:gravity="center"/>
+
+    <!--Linea separadora-->
+    <View
+        android:id="@+id/separador"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DDDDDD" />
+
+
+    <TextView
+        android:id="@+id/precio_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Normal (un día) · 45 €"
+        android:textSize="18sp" />
+
+
+
+
+</LinearLayout>
